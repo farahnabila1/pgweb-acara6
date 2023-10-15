@@ -36,7 +36,7 @@
                             <li><a class="dropdown-item" href="pendudukjeniskelamin.html">Jumlah Penduduk Menurut Jenis
                                     Kelamin</a></li>
                             <li><a class="dropdown-item" href="pendudukjeniskelamin.html">Jumlah Desa</a></li>
-                            <li><a class="dropdown-item" href="pie.html">Tenaga Kesehatan</a></li>
+                            <li><a class="dropdown-item" href="pie.html">Produk Domestik Regional Bruto</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -55,7 +55,9 @@
     <div class="container mt-4">
         <div class="card">
             <div class="card-header">
-                <h4>Tenaga Kesehatan Kabupaten Sidoarjo</h4>
+                <h4>Distribusi Persentase Produk Domestik Regional Bruto
+                    Atas Dasar Harga Berlaku Menurut Lapangan Usaha di
+                    Kabupaten Sidoarjo, 2022</h4>
             </div>
             <div class="card-body">
                 <div id="chart">
@@ -98,15 +100,14 @@
     <script>
         var options = {
             series: [
-                139, 160, 176, 159, 146, 212, 411, 230, 169, 376, 700, 323, 249, 483, 326, 778, 289, 136
+                12668, 40236, 27354, 17591, 8695, 8418, 744
             ],
             chart: {
                 type: 'donut',
                 width: 350
             },
-            labels: ['Tarik', 'Prambon', 'Krembung', 'Porong', 'Jabon', 'Tanggulangin', 'Candi', 'Tulangan',
-                'Wonoayu', 'Sukodono', 'Sidoarjo', 'Buduran', 'Sedati', 'Waru', 'Gedangan', 'Taman',
-                'Krian', 'Balongbendo'],
+            labels: ['Industri Pengolahan', 'Perdagangan Besar dan Eceran', 'Transportasi dan Pergudangan', 'Konstruksi', 'Penyediaan Akomodasi dan Makan Minum', 'Informasi dan Komunikasi', 'Lainnya'
+            ],
             responsive: [{
                 breakpoint: 480,
                 options: {
